@@ -1,0 +1,160 @@
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+  background-color: #fff;
+  /* Enlaza la tipografia Open Sans */
+}
+
+.flex-container{
+	display: flex;
+}
+
+.menu{
+	background-color: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%; 
+}
+
+.menu .flex-container{
+	justify-content: flex-start;
+}
+
+.logo-container{
+	margin-left: auto;
+	margin-right: 20px;
+}
+
+.flex-container .logo{
+	width: 70px;
+	height: 70px;
+}
+.link{
+	font-weight: 700;
+    padding: 21px;
+	background: white;
+	text-decoration: none;
+	color: black;
+	
+	text-align: center;
+}
+.link:hover{
+background: black;
+color: white;
+}
+
+
+/*Home*/
+
+#home{
+	height: 600px;
+	margin-top: 70px;
+	background-image: url(../assets/images/bg-home.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+	color: whitesmoke; 
+}
+
+.text-home{
+	font-size: 2.4em;
+}
+
+/*Services*/
+
+#services{
+	background-color:#F17C72;
+	text-align: center;
+	color: #fff;
+	padding: 70px; 
+}
+
+#services.flex-container{
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.box-services{
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+/*WORK*/
+
+#work {
+  background-color: white;
+  text-align: center;
+  color: black;
+}
+
+.text-work {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #424242;
+  font-weight: 700;
+  margin: 10px 100px;
+}
+
+.text-work-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 30%;
+  font-weight: 800;
+  font-size: 200%;
+  letter-spacing: 2px;
+  margin-top: 80px;
+  margin-bottom: 10px;
+}
+
+#work.flex-container {
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
+
+/* Estilos de imagenes*/
+.images{
+  padding: 20px 100px;
+  width: 100%;
+}
+.image-works{
+  background: #f4f5f8;
+  display: inline-block;
+  border-radius: 5px 10px;
+  padding: 20px;
+  margin: 5px;
+ 
+}
+.image-works img{
+  border-radius: 5px 10px;
+}
+
+.image-works a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+}
+.img-work{
+  width: 200px;
+  height: 200px;
+}
+
+/*estilos al footer*/
+footer{
+  text-align: center;
+  height: 70px;
+  background: #373B47;
+  color:white;
+  padding-top: 7px;
+}
